@@ -1,0 +1,29 @@
+{
+  "name": "my_reel",
+  "music": "music/bed.mp3",
+  "music_gain": 0.16,
+  "voice_direction": "dry, wry, slightly smug young American woman's voice, General American accent, casual internet-creator cadence, medium-fast pace",
+  "style": "3D video game cutscene. Subtle handheld camera drift. Accurate lip sync. No music, no subtitles, no on-screen text. She finishes the line, then holds a smirk in silence.",
+  "elevenlabs_voice_id": "FGY2WhTYpPnrIDTdsKH5",
+  "shots": [
+    {
+      "id": "s0",
+      "silent": true,
+      "image": "shots/k0_hook.jpg",
+      "prompt": "Animate this image into a video with synchronized audio. 3D video game cutscene. The woman finishes applying her lipstick in the compact mirror, snaps the compact shut, turns to the camera and blows a slow flying kiss at the lens, then winks and holds a confident smirk. The camera stays on a close-up of her face and shoulders the whole time. NO graphics or effects appear anywhere on screen. Only sound effects: the compact clicking shut and a soft kiss sound. No speech, no music, no subtitles, no on-screen text.",
+      "trim": [0.9, 9.3],
+      "speed": 1.75,
+      "sfx_gain": 0.6
+    },
+    {"id": "s1", "image": "shots/k1_medium.jpg", "action": "The woman raises her index finger and says", "line": "Did you know India has more wild tigers than every other country combined?"},
+    {"id": "s2", "image": "shots/k2_wide.jpg", "action": "Static locked-off wide shot, the camera does not move or zoom. The woman, leaning on the sea wall, shrugs with open palms and says", "line": "About three out of every four wild tigers on earth live here."},
+    {"id": "s3", "image": "shots/k3_close.jpg", "action": "Close-up. The woman tilts her head, raises an eyebrow, and says with a sly grin", "line": "Like, imagine being a tiger anywhere else. You'd have nobody to talk to."},
+    {"id": "s4", "image": "shots/k4_point.jpg", "action": "The woman smirks at the camera, taps her chest with her thumb, and says", "line": "Anyway. I couldn't adopt one, so I wore one."}
+  ],
+  "cut_main": ["s0", "s1", "s2", "s3", "s4"],
+  "cta": {
+    "line": "Get yours at your brand dot com. Link in bio.",
+    "caption": "www.yourbrand.com",
+    "image": "product/on_model.jpg"
+  }
+}
