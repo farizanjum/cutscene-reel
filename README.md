@@ -6,13 +6,11 @@ the product, and cuts to the real product photo and your URL.
 
 ## Install
 
-**Claude Code**
-```bash
-git clone https://github.com/farizanjum/cutscene-reel ~/.claude/skills/cutscene-reel
-```
+Get the zip from https://cutscenereel.vercel.app and unzip it into your agent's skills folder.
 
-**Any other agent** (Cursor, Codex, Gemini CLI...): clone the repo anywhere and tell the agent
-`Read SKILL.md in ./cutscene-reel and follow it.`
+- **Claude Code**: `~/.claude/skills/cutscene-reel`
+- **Any other agent** (Cursor, Codex, Gemini CLI...): unzip it anywhere and tell the agent
+  `Read SKILL.md in ./cutscene-reel and follow it.`
 
 ## Use
 
